@@ -38,12 +38,6 @@ const Stories = () => {
     <TouchableOpacity onPress={() => handlePress(item.url)}>
       <View style={styles.article}>
         <Text style={styles.title}>{item.title}</Text>
-        {/* <Image style={{ width: 100, height: 100}} source={{ uri: `${item.thumbnail}` }} /> */}
-        {/* <View style={styles.articleContent}>
-          <Text style={styles.title}>{item.title}</Text>
-          <Image style={{ width: 100, height: 100}} source={{ uri: `${item.thumbnail}`}} />
-          <Image source={{ uri: item.imageUrl }} style={styles.image} /> */}
-      {/* </View> */}
       </View>
     </TouchableOpacity>
   );
